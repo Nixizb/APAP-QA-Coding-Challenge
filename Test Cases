@@ -1,0 +1,69 @@
+**Login**
+
+**Test Case 1**
+Ir a la página https://the-internet.herokuapp.com/");
+Hacer click en Form Authentication
+Introducir userName tomsmith
+Introducir password SuperSecretPassword
+Hacer click en Login
+    
+**Resultado esperado:** redirecciona a la página https://the-internet.herokuapp.com/secure
+Muestra el mensaje de:"You logged into a secure area!"
+
+**Test Case 2**
+Usuario incorrecto
+Ir a la página https://the-internet.herokuapp.com/");
+Hacer click en Form Authentication
+Introducir userName otroUsuario
+Introducir password SuperSecretPassword
+Hacer click en Login
+    
+**Resultado esperado:** redirecciona a la página https://the-internet.herokuapp.com/secure
+Muestra el mensaje de:“Your username is invalid!!"
+
+**Test Case 3**
+Password incorrecta
+Ir a la página https://the-internet.herokuapp.com/");
+Hacer click en Form Authentication
+Introducir userName tomsmith
+Introducir password otrapasswors
+Hacer click en Login
+
+**Resultado esperado:**  redirecciona a la página https://the-internet.herokuapp.com/secure
+Muestra el mensaje de: "Your password is invalid!! "
+
+**Inputs**
+**Test Case 1**
+Incrementando con el teclado flecha hacia arriba
+Ir a la página https://the-internet.herokuapp.com/");
+Click input
+Click incrementar valor repetidas veces hacia arriba (Fecla UP)
+
+**Test Case 2**
+Decrementar con el teclado flecha hacia abajo
+Ir a la página https://the-internet.herokuapp.com/");
+Click input
+Click incrementar valor repetidas veces hacia arriba (Fecla Down)
+
+**Test Case 3**
+Decrementar con el teclado flecha hacia abajo
+Ir a la página https://the-internet.herokuapp.com/");
+Click input
+Introducir valores por el teclado
+
+**Dropdown**
+Test Case 1
+Ir a la página principal (https://the-internet.herokuapp.com/dropdown)
+Click en dropdown
+Click para seleccionar la opcion 1
+Resultado esperado: muestra la opción 1 seleccionada
+
+
+**Test Case 2**
+Ir a la página principal (https://the-internet.herokuapp.com/dropdown)
+Click en dropdown
+Click para seleccionar la opción 2
+
+**Resultado esperado:** muestra la opción 2 seleccionada
+  
+     
